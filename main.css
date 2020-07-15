@@ -50,3 +50,29 @@ ul a:hover {
   margin: 20px;
   width: 300px;
 }
+
+/* CATS */
+
+.cats {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+.cats img {
+  height: 350px;
+  align-self: center;
+  margin: 10px;
+}
+
+/* UNIVERSAL FORMATTING */
+
+.page-title {
+  text-transform: uppercase;
+  padding: 1em ;
+  letter-spacing: .5em;
+  text-align: center;
+  font-size: 3em;
+}
